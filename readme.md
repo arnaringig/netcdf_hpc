@@ -7,7 +7,7 @@ If you are interested in learning how to use the Copernicus API and use the api 
 Alternatively, if you just want to download the data fast and get running:
 [Download the data from this Google Drive folder](https://drive.google.com/drive/folders/1XSq_dOUmYSJ8f2edBzYdFGVLLtQeG6sB?usp=sharing) directly and put it into the */repository* folder in the project root, with the project residing on your local machine.
 
-The packages *numpy*, *netCDF4* and *cdsapi*(*) must be available to python on the remote host. They can be installed using the [pip](https://pip.pypa.io/en/stable/) package manager as follows:
+The packages *numpy*, *netCDF4* and *cdsapi*(*) must be available to python on the remote host. They can be installed using the [pip](https://pip.pypa.io/en/stable/) package manager as follows (contact your HPC administrator if you don´t have privileges to pip install):
 
 (*) The cdsapi only needs to be available if you intend to use the Copernicus API to fetch data.
 
